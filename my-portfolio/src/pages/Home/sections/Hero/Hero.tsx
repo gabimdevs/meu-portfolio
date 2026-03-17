@@ -3,7 +3,7 @@ import Avatar from "../../../../assets/images/Avatar.jpeg"
 import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import Matcha from "../../../../assets/images/matcha-latte.png";
+import Lavanda from "../../../../assets/images/lavanda.png";
 import CV from "../../../../assets/pdfs/curriculoGabriela.pdf";
 import Typewriter from "../../../../components/Typewriter/Typewriter";
 const Hero: React.FC = () => {
@@ -51,7 +51,7 @@ const handleDownload = () => {
 const handleEmail = () => {
     const emailAddress = 'contatogabim@outlook.com';
     const subject = 'Subject';
-    const body = 'Hello! I saw your portfolio...';
+    const body = 'Olá! Eu vi seu portfólio...';
 
     const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.open(mailtoLink);
@@ -66,13 +66,13 @@ const handleEmail = () => {
                             <Box position="relative">
                                 <Box position="relative" textAlign="center">
                                     <StyledImg src={Avatar} />
-                                    <TeaIcon src={Matcha}/>
+                                    <TeaIcon src={Lavanda}/>
                                 </Box>
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Gabriela Gomes</Typography>
-                            <Typewriter text="I'm a Front End Developer" delay={120} variant="h2" color="primary.contrastText"/>
+                            <Typewriter text="Desenvolvedora Front-end" delay={120} variant="h2" color="primary.contrastText"/>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => handleDownload()}>
@@ -86,7 +86,7 @@ const handleEmail = () => {
                                     <StyledButton onClick={() => handleEmail()}>
                                         <MailOutlineIcon />
                                         <Typography>
-                                            Contact me
+                                            Contato
                                         </Typography>
                                     </StyledButton>
                                 </Grid>
