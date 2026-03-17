@@ -15,22 +15,23 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Typescript", "React", "Next", "Git", "HTML", "CSS", "Material UI", "Figma", "Vite"
+        "Typescript", "React.js", "Next.js", "Git", "HTML", "CSS", "Material UI", "Figma", "Vite", "React Native", "Node.js", "Deployment",
+         "Organização", "Colaboração", "Comunicação"
     ]
 
     return (
         <>
             <Container maxWidth="lg">
                 <Box id="about" pt={5} mb={3}>
-                    <Typography variant="h2" textAlign="center" >About me</Typography>
+                    <Typography variant="h2" textAlign="center" >Sobre mim</Typography>
                 </Box>
                 <Grid container spacing={2} display="flex" justifyContent="center" pb={3}>
                     <Grid item xs={9} md={2.5}>
                         <AnimationComponent moveDirection="right">
                             <StyledCard variant="outlined">
                                 <WorkspacePremiumIcon />
-                                <Typography textAlign="center" fontWeight={600}>Experience</Typography>
-                                <Typography textAlign="center">1+ years</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Experiência</Typography>
+                                <Typography textAlign="center">1+ ano</Typography>
                                 <Typography textAlign="center">Frontend Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
@@ -39,8 +40,8 @@ const AboutSection: React.FC = () => {
                         <AnimationComponent moveDirection="left">
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
-                                <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Technologist degree</Typography>
+                                <Typography textAlign="center" fontWeight={600}>Educação</Typography>
+                                <Typography textAlign="center">Tecnólogo</Typography>
                                 <Typography textAlign="center">ADS</Typography>
                             </StyledCard>
                         </AnimationComponent>
@@ -49,12 +50,10 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                    Olá! Sou Gabriela, graduanda em Análise e Desenvolvimento de Sistemas pela FIAP, com foco e paixão pelo desenvolvimento front-end. <br />
-                    Gosto de transformar ideias em interfaces intuitivas e envolventes, criando experiências que realmente fazem a diferença. Tenho experiência 
-                    no desenvolvimento de aplicações web e mobile, trabalhando com tecnologias como React, TypeScript, Next.js, Vite e React Native. <br />  Acredito que 
-                    um bom código vai além da técnica: colaboração e comunicação eficaz são essenciais para o sucesso de qualquer equipe. Gosto  de contribuir ativamente, 
-                    compartilhando conhecimento e ajudando o time a evoluir. <br /> Minha abordagem para resolver problemas é baseada na organização e em processos bem estruturados. 
-                    Busco sempre criar um ambiente de trabalho produtivo, transparente e alinhado com os objetivos do projeto.
+                    Olá! Sou Gabriela, Sou desenvolvedora front-end formada em Análise e Desenvolvimento de Sistemas, com foco na criação de interfaces modernas, 
+                     responsivas e centradas na experiência do usuário. Trabalho com React, Next.js, TypeScript e React Native no desenvolvimento de aplicações web 
+                     e mobile, sempre priorizando performance, usabilidade e qualidade do código. Também possuo conhecimentos em Java e SQL, <br /> o que amplia minha 
+                     visão sobre o desenvolvimento completo de software.
                     </Typography>
                 </Box>
                 <hr />
