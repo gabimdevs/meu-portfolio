@@ -59,7 +59,7 @@ export default function Navbar() {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="absolute">
                 <StyledMobileToolbar>
-                    <img src={logo} alt="Logo" style={{ width:"18%"}} />
+                    <img src={logo} alt="Logo" style={{ width:"40%"}} />
                     <IconButton
                         size="large"
                         aria-label="menu"
