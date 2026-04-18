@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                         </IconButton>
                     </Box>
                     <Typography textAlign="center">
-                        © 2025 Gabriela Dev - Todos os direitos reservados.
+                        © 2026 Gabriela Dev - Todos os direitos reservados.
                     </Typography>
                 </Container>
             </Box>
