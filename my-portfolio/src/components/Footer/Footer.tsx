@@ -10,18 +10,18 @@ const Footer: React.FC = () => {
             <Box pt={2} pb={2}>
                 <Container maxWidth="sm">
                     <Box display="flex" alignItems="center" justifyContent="space-around" pb={1}>
-                        <IconButton onClick={() => window.open("https://github.com/gabimmdev")}>
+                        <IconButton onClick={() => window.open("https://github.com/gabimdevs")}>
                             <GitHubIcon />
                         </IconButton>
-                        <IconButton onClick={() => window.open("https://www.linkedin.com/in/gabimm/")}>
+                        <IconButton onClick={() => window.open("https://www.linkedin.com/in/gabimdevs/")}>
                             <LinkedInIcon />
                         </IconButton>
-                        <IconButton href="mailto:contatogabim@outlook.com" target="_blank">
+                        <IconButton href="mailto:gcezar.dev@gmail.com" target="_blank">
                             <EmailIcon />
                         </IconButton>
                     </Box>
                     <Typography textAlign="center">
-                        © 2025 Gabim Dev - Todos os direitos reservados.
+                        © 2025 Gabriela Dev - Todos os direitos reservados.
                     </Typography>
                 </Container>
             </Box>
