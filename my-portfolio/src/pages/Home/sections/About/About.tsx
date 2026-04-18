@@ -15,8 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Typescript", "React.js", "Next.js", "Git", "HTML", "CSS", "Material UI", "Figma", "Vite", "React Native", "Node.js", "Deployment",
-         "Organização", "Colaboração", "Comunicação"
+        "Java", "AI", "Typescript", "SQL", "Git", "React.js", "HTML", "CSS", "Material UI", "Figma", "Vite", "React Native", "Node.js"
     ]
 
     return (
@@ -31,8 +30,8 @@ const AboutSection: React.FC = () => {
                             <StyledCard variant="outlined">
                                 <WorkspacePremiumIcon />
                                 <Typography textAlign="center" fontWeight={600}>Experiência</Typography>
-                                <Typography textAlign="center">1+ ano</Typography>
-                                <Typography textAlign="center">Frontend Development</Typography>
+                                <Typography textAlign="center">+1 ano</Typography>
+                                <Typography textAlign="center">Backend Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
                     </Grid>
@@ -44,16 +43,26 @@ const AboutSection: React.FC = () => {
                                 <Typography textAlign="center">Tecnólogo</Typography>
                                 <Typography textAlign="center">ADS</Typography>
                             </StyledCard>
+                            <StyledCard variant="outlined">
+                                <SchoolIcon />
+                                <Typography textAlign="center" fontWeight={600}>Educação</Typography>
+                                <Typography textAlign="center">Bacharelado</Typography>
+                                <Typography textAlign="center">Engenharia de Software</Typography>
+                            </StyledCard>
                         </AnimationComponent>
 
                     </Grid>
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                    Olá! Sou Gabriela, Sou desenvolvedora front-end formada em Análise e Desenvolvimento de Sistemas, com foco na criação de interfaces modernas, 
-                     responsivas e centradas na experiência do usuário. Trabalho com React, Next.js, TypeScript e React Native no desenvolvimento de aplicações web 
-                     e mobile, sempre priorizando performance, usabilidade e qualidade do código. Também possuo conhecimentos em Java e SQL, <br /> o que amplia minha 
-                     visão sobre o desenvolvimento completo de software.
+                    Olá! Sou Gabriela, uma engenheira de software apaixonada por tecnologia e inovação. 
+                    Com mais de um ano de experiência em desenvolvimento backend, tenho me dedicado a criar 
+                    soluções eficientes e escaláveis. Minha jornada na área de tecnologia começou com um curso 
+                    técnico em Análise e Desenvolvimento de Sistemas, onde adquiri uma base sólida em programação 
+                    e desenvolvimento de software. Atualmente, estou cursando bacharelado em Engenharia de Software, 
+                    buscando aprofundar meus conhecimentos e habilidades para enfrentar os desafios do mundo tecnológico. 
+                    Estou sempre em busca de novas oportunidades para aprender e crescer profissionalmente, contribuindo 
+                    para projetos que façam a diferença.
                     </Typography>
                 </Box>
                 <hr />
