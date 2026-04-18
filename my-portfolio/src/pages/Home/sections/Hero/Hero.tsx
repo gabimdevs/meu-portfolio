@@ -72,7 +72,7 @@ const handleEmail = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Gabriela Gomes</Typography>
-                            <Typewriter text="Engenheira de Software Java" delay={120} variant="h2" color="primary.contrastText"/>
+                            <Typewriter text="Engenheira de Software" delay={120} variant="h2" color="primary.contrastText"/>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => handleDownload()}>
