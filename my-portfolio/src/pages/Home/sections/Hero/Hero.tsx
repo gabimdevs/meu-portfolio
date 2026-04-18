@@ -39,7 +39,7 @@ const handleDownload = () => {
     // Create a link element
     const link = document.createElement('a');
     link.href = CV
-    link.download = 'curriculoGabriela.pdf'; // Set the download attribute to specify the file name
+    link.download = 'curriculoEngGabriela.pdf'; // Set the download attribute to specify the file name
     // Append the link to the body
     document.body.appendChild(link);
     // Trigger the click event
@@ -49,7 +49,7 @@ const handleDownload = () => {
 };
 
 const handleEmail = () => {
-    const emailAddress = 'contatogabim@outlook.com';
+    const emailAddress = 'gcezar.dev@gmail.com';
     const subject = 'Subject';
     const body = 'Olá! Eu vi seu portfólio...';
 
@@ -72,7 +72,7 @@ const handleEmail = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Gabriela Gomes</Typography>
-                            <Typewriter text="Desenvolvedora Front-end" delay={120} variant="h2" color="primary.contrastText"/>
+                            <Typewriter text="Engenheira de Software Java" delay={120} variant="h2" color="primary.contrastText"/>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => handleDownload()}>
