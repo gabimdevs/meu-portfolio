@@ -59,10 +59,10 @@ export default function Navbar() {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="absolute">
                 <StyledMobileToolbar>
-                    <img src={logo} alt="Logo" style={{ width:"40%"}} />
+                    <img src={logo} alt="Logo" style={{ width:"60%"}} />
                     <IconButton
-                        size="large"
                         aria-label="menu"
+                        size="large"
                         aria-controls="menu-appbar"
                         aria-haspopup="true"
                         onClick={handleMenu}
@@ -82,13 +82,13 @@ export default function Navbar() {
                         onClose={handleClose}
                     >
                         <MenuItem onClick={() => handleSmoothScroll("about")}>
-                            <StyledNavLink>About</StyledNavLink>
+                            <StyledNavLink>Sobre</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("skills")}>
                             <StyledNavLink>Skills</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("projects")}>
-                            <StyledNavLink>Projects</StyledNavLink>
+                            <StyledNavLink>Projetos</StyledNavLink>
                         </MenuItem>
                     </Menu>
                 </StyledMobileToolbar>
@@ -96,13 +96,13 @@ export default function Navbar() {
                     <img src={logo} alt="Logo" style={{ width: "5%" }} />
                     <Box sx={{ display: "flex", gap: 2 }}>
                         <MenuItem onClick={() => handleSmoothScroll("about")}>
-                            <StyledNavLink>About</StyledNavLink>
+                            <StyledNavLink>Sobre</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("skills")}>
                             <StyledNavLink>Skills</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("projects")}>
-                            <StyledNavLink>Projects</StyledNavLink>
+                            <StyledNavLink>Projetos</StyledNavLink>
                         </MenuItem>
                     </Box>
                 </StyledDesktopToolbar>
