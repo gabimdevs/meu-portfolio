@@ -28,8 +28,8 @@ const Hero: React.FC = () => {
         border: `1px solid ${theme.palette.primary.contrastText}`
     }))
 
-    const TeaIcon = styled("img")({
-        width: "18%",
+    const LavIcon = styled("img")({
+        width: "24%",
         position: "absolute",
         bottom: "10%",
         right: "10%",
@@ -39,7 +39,7 @@ const handleDownload = () => {
     // Create a link element
     const link = document.createElement('a');
     link.href = CV
-    link.download = 'curriculoEngGabriela.pdf'; // Set the download attribute to specify the file name
+    link.download = 'curriculoGabriela.pdf'; // Set the download attribute to specify the file name
     // Append the link to the body
     document.body.appendChild(link);
     // Trigger the click event
@@ -66,13 +66,13 @@ const handleEmail = () => {
                             <Box position="relative">
                                 <Box position="relative" textAlign="center">
                                     <StyledImg src={Avatar} />
-                                    <TeaIcon src={Lavanda}/>
+                                    <LavIcon src={Lavanda}/>
                                 </Box>
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Gabriela Gomes</Typography>
-                            <Typewriter text="Engenheira de Software" delay={120} variant="h2" color="primary.contrastText"/>
+                            <Typewriter text="Desenvolvedora BackEnd" delay={120} variant="h2" color="primary.contrastText"/>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => handleDownload()}>
