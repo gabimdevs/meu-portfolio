@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Java", "AI", "Typescript", "SQL", "Git", "React.js", "HTML", "CSS", "Material UI", "Figma", "Vite", "React Native", "Node.js"
+        "Java", "Python", "AI", "Typescript", "SQL", "Git", "GitHub", "React.js", "HTML", "CSS", "Material UI", "Figma", "Vite", "Node.js"
     ]
 
     return (
@@ -55,14 +55,11 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                    Olá! Sou Gabriela, uma engenheira de software apaixonada por tecnologia e inovação. 
-                    Com mais de um ano de experiência em desenvolvimento backend, tenho me dedicado a criar 
-                    soluções eficientes e escaláveis. Minha jornada na área de tecnologia começou com um curso 
-                    técnico em Análise e Desenvolvimento de Sistemas, onde adquiri uma base sólida em programação 
-                    e desenvolvimento de software. Atualmente, estou cursando bacharelado em Engenharia de Software, 
-                    buscando aprofundar meus conhecimentos e habilidades para enfrentar os desafios do mundo tecnológico. 
-                    Estou sempre em busca de novas oportunidades para aprender e crescer profissionalmente, contribuindo 
-                    para projetos que façam a diferença.
+                    Olá, Que bom te ver por aqui! 
+                    Sou formada em Análise e Desenvolvimento de Sistemas e atualmente curso Engenharia de Software, com foco em iniciar minha carreira como Engenheira de Software BackEnd.
+                    Durante minha formação, desenvolvi projetos web utilizando tecnologias como React, Next.js, TypeScript, Java, SQL e React Native. Atuei na criação de interfaces, autenticação de usuários, validações de dados, consumo de APIs e organização de aplicações completas, sempre buscando transformar necessidades em soluções funcionais e bem estruturadas.
+                    Também venho aprofundando meus conhecimentos em backend com Java e boas práticas de desenvolvimento, evoluindo continuamente minha base técnica e minha forma de resolver problemas.
+                    Além do código, compartilho minha rotina e evolução na área de tecnologia como IT girl no YouTube @gabimdevs, falando sobre estudos, carreira e a realidade da jornada na área tech, com o objetivo de inspirar e ajudar quem está começando.
                     </Typography>
                 </Box>
                 <hr />
