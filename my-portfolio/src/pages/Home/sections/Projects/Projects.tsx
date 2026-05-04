@@ -12,19 +12,27 @@ const ProjectsSection: React.FC = () => {
     const projects = [ 
         {
             title: "Blue Ocean",
-            subtitle: "Maio 2024 - Fev 2025",
+            subtitle: "Mai 2024 - Fev 2025",
             description: "O projeto Blue Ocean é um site informativo desenvolvido para conscientizar sobre os impactos da poluição marinha e incentivar ações para a preservação dos oceanos. Ele utiliza HTML, CSS e JavaScript para oferecer uma experiência visual e interativa. O design do site é aprimorado com imagens temáticas.",
             technologies: "Tecnologias: JavaScript, HTML, CSS",
             websiteURL: "https://blueoceann.netlify.app/",
             codeURL: "https://github.com/gabimdevs/Project-BlueOcean.git",
         },
         {
-            title: "MotoTrack App",
-            subtitle: "Maio 2025 - Dez 2025",
-            description: "O projeto MotoTrack App é uma aplicação mobile desenvolvida para facilitar a gestão e o controle de motos em pátios. Utiliza React Native para o desenvolvimento, garantindo uma experiência consistente entre dispositivos Android e iOS. O app oferece funcionalidades como cadastro de motos e registro de entradas e saídas.",
-            technologies: "Tecnologias: React Native, Expo, TypeScript, Context API",
-            websiteURL: "https://mottupatioapp.netlify.app/",
-            codeURL: "https://github.com/gabimdevs/mototrack.git",
+            title: "CoworkHub Reservation System",
+            subtitle: "Ago 2025 - Set 2025",
+            description: "O CoworkHub Reservation é um sistema web de reservas de espaços de coworking que permite gerenciar a disponibilidade de salas, usuários e agendamentos de forma organizada. O projeto simula um produto real de mercado voltado para coworkings, focado em organização de reservas e experiência do usuário.",
+            technologies: "Tecnologias: Java, Spring Boot, JavaScript, HTML, CSS, Docker",
+            websiteURL: "",
+            codeURL: "https://github.com/gabimdevs/coworkhub-reservation.git",
+        },
+        {
+            title: "Cash Up API",
+            subtitle: "Abr 2025 - Mai 2025",
+            description: "O Cash Up API é uma API REST desenvolvida em Java com Spring Boot voltada para controle financeiro, inicialmente focada no gerenciamento de categorias financeiras. O projeto segue arquitetura em camadas e boas práticas REST, sendo uma base para expansão de um sistema financeiro completo.",
+            technologies: "Tecnologias: Java, Spring Boot",
+            websiteURL: "",
+            codeURL: "https://github.com/gabimdevs/cash-up-api.git",
         },
         {
             title: "My Portfolio",
@@ -40,7 +48,7 @@ const ProjectsSection: React.FC = () => {
         <StyledExperience>
             <Container maxWidth="lg">
                 <Box id="projects" pt={5} pb={3}>
-                    <Typography variant="h2" textAlign="center" color="primary.contrastText">Projects</Typography>
+                    <Typography variant="h2" textAlign="center" color="primary.contrastText">Projetos</Typography>
                 </Box>
                 <Grid container spacing={5} pb={3}>
                     {projects.map((project: ProjectCardProps, index: number) => (
