@@ -1,10 +1,10 @@
-# 💻 Meu Portfólio Pessoal
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FF69B4&size=35&center=true&vCenter=true&width=1000&lines=+Olá,+Seja+Bem+vindo+ao+meu+Portfólio!+)](https://git.io/typing-svg)
 
-Bem-vindo(a) ao repositório do meu portfólio pessoal! Este é o espaço onde centralizo minha trajetória, principais habilidades técnicas e os projetos que desenvolvi. O objetivo principal é apresentar meu perfil profissional de forma clara, moderna e responsiva.
+Este é o espaço onde centralizo minha trajetória, principais habilidades técnicas e os projetos que desenvolvi. O objetivo principal é apresentar meu perfil profissional de forma clara, moderna e responsiva.
 
----
 
-## 🚀 Tecnologias Utilizadas
+
+### 🚀 Tecnologias Utilizadas
 
 O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 
@@ -14,9 +14,9 @@ O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 *   **Git & GitHub** — Controle de versão e hospedagem do código.
 *   **Design & Planejamento** — Concebido inicialmente com auxílio do Figma.
 
----
 
-## 🛠️ Funcionalidades e Seções
+
+### 🛠️ Funcionalidades e Seções
 
 *   **Home/Sobre Mim:** Uma breve introdução sobre quem sou, minha formação e meus objetivos na área de tecnologia (com foco em desenvolvimento Back-End e experiência em Front-End).
 *   **Habilidades (Skills):** Exibição das linguagens e ferramentas que domino (Python, Java, Node.js, SQL, React, etc.).
@@ -24,9 +24,9 @@ O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 *   **Contato:** Links para as minhas redes profissionais (LinkedIn, E-mail e GitHub).
 *   **Design Responsivo:** Interface totalmente adaptada para dispositivos móveis, tablets e desktops.
 
----
 
-## 🔧 Como Executar o Projeto Localmente
+
+### 🔧 Como Executar o Projeto Localmente
 
 Se quiser rodar o projeto na sua máquina, siga os passos abaixo:
 
