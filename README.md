@@ -48,4 +48,4 @@ npm start
 ```
 5. **Abra o navegador na porta indicada no terminal para ver o resultado**
 
-<br>Desenvolvido com 🩷 por Gabriela Gomes Cezar.
+<br>Desenvolvido por Gabimdevs🩷.
